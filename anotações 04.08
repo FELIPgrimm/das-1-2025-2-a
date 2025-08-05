@@ -1,0 +1,16 @@
+O que é abstração:
+Abstração é o processo de representar algo do mundo real de forma simplificada para resolver um problema específico do cliente. Ela ajuda a isolar a complexidade do sistema, permitindo que nos concentremos apenas nos aspectos essenciais.
+
+O que é coesão:
+Coesão é a propriedade de um módulo ou trecho de código de realizar uma única tarefa de forma clara e eficiente. Por exemplo, em uma estrutura de dados do tipo pilha, o método push deve apenas adicionar um elemento, enquanto o método pop deve apenas remover um elemento da pilha. Cada método tem uma responsabilidade única e bem definida.
+
+Setas em diagramas UML:
+
+Seta simples (linha contínua com ponta de flecha): representa herança.
+
+Seta pontilhada (linha tracejada com ponta de flecha): representa implementação (por exemplo, uma classe que implementa uma interface).
+
+Seta completa (linha contínua sem ponta de flecha ou com ponta fechada): representa associação.
+
+Acoplamento:
+Sempre que há autoacoplamento (alto acoplamento), uma mudança em uma parte do código pode afetar diversas outras partes, exigindo modificações extensas no sistema. Por isso, é importante buscar baixo acoplamento para facilitar a manutenção e evolução do código.
