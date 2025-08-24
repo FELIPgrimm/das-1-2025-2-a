@@ -1,0 +1,63 @@
+Princípio da Responsabilidade Única
+
+“Cada função ou cada pedaço de código tem uma responsabilidade bem definida. Ela faz um trabalho bem feito.”
+
+“Isso é o princípio da responsabilidade única.”
+
+Princípio da Segregação de Interfaces
+
+“Ter interfaces com objetivos diferentes.”
+
+Exemplo:
+
+“Tenho um componente gráfico de tela e preciso ouvir os eventos do mouse, então eu implemento a interface MouseMotionListener.”
+
+“Essa interface me dá dois eventos: quando o mouse for arrastado e quando o mouse se mover.”
+
+“Outra interface é o ActionListener, para ouvir clique do botão do mouse.”
+
+“Cada interface tem a sua responsabilidade.”
+
+Princípio da Inversão de Dependência
+
+“Uma classe deve depender diretamente de uma abstração e não de uma implementação concreta.”
+
+“A classe cliente estabelece uma dependência com uma abstração e não com uma implementação concreta.”
+
+Exemplo no Spring:
+
+“O CarroController expõe uma API REST.”
+
+“O controlador depende de uma outra camada chamada serviço.”
+
+“O CarroService é uma interface do Java, é um contrato, um padrão de comunicação.”
+
+“A implementação concreta fica no CarroServiceImpl.”
+
+“O controlador usa a interface e não a classe real.”
+
+“O @Autowired procura quem implementa essa interface e faz a injeção de dependência.”
+
+Benefício: “Pra reduzir acoplamento. Eu não quero ligar o controlador direto no código que implementa.”
+
+Exemplo adicional:
+
+“Uma implementação usando SQL Server e outra usando Oracle.”
+
+“O controlador não sabe qual está usando, ele só fala com a interface.”
+
+Princípio Aberto/Fechado
+
+“A gente conseguiu mudar o comportamento da tabela sem quebrar o código.”
+
+“Estender pra fazer o que a gente queria.”
+
+Exemplo:
+
+Tornar células de uma tabela editáveis.
+
+“Eu posso clicar e escrever dentro.”
+
+“Quando eu clico fora, ele apaga porque falta a lógica de persistir.”
+
+Mostra que é possível adicionar a função sem alterar o código original.

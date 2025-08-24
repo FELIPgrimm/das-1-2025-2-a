@@ -1,0 +1,40 @@
+Princípios de Projeto de Software (Capítulo 5 do livro "Engenharia de Software Moderna")
+Foco inicial na abstração:
+
+Representar entidades do mundo real no software.
+
+Exemplo: classe Cliente com atributos nome, endereço, etc.
+
+Abordagem orientada a objetos:
+
+Uso de entidades, repositórios, serviços e controladores.
+
+Importância de padrões de arquitetura para manter a organização e reduzir complexidade.
+
+Conceitos principais:
+Abstração: representar dados reais no código.
+
+Encapsulamento: proteger atributos com private e usar getters/setters.
+
+Coesão: cada classe ou método deve ter uma responsabilidade clara.
+
+Acoplamento:
+
+Alto acoplamento é ruim: mudanças em uma classe afetam várias.
+
+Baixo acoplamento é desejável: promove reutilização e manutenção fácil.
+
+Exemplo prático: uso de @Autowired no Spring para injeção de dependência.
+
+Débito técnico: decisões mal planejadas no código que dificultam futuras manutenções.
+
+Padrões de codificação: seguir convenções da linguagem (ex: nomes de classe com maiúsculas em Java).
+
+Boas práticas:
+Não reinventar a roda: utilizar frameworks estabelecidos (Spring Boot, Django, etc.).
+
+Separar responsabilidades por camadas.
+
+Focar na legibilidade e manutenção do código.
+
+Prática em manutenção de software é essencial para se tornar um bom programador.
