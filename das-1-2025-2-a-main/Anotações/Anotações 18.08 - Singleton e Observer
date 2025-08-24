@@ -1,0 +1,67 @@
+1. Configurando o ambiente
+
+Configuramos nosso ambiente para usar o GitHub Codespaces:
+“A gente criou essa pasta aqui com o arquivo aqui dentro que configura o Codespace… Criamos um Git ignore, criamos esse arquivo.”
+
+Abrir VS Code, logar no GitHub e instalar a extensão Codespace se necessário.
+
+Conectar no ambiente da turma clicando na tomadinha (plug) do Codespace.
+
+“Quando você parar o mouse em cima dele, vai aparecer aqui a tomadinha, você clica na tomadinha para conectar no ambiente. Tranquilinho.”
+
+2. Revisão do Singleton
+
+O que é o Singleton?
+“Só pra gente lembrar é um padrão que a gente implementa quando eu preciso ter um objeto no meu sistema, que ele seja único.”
+
+Como funciona:
+
+Construtor privado → ninguém pode criar a classe fora dela.
+
+“Significa que nenhum outro programa Java pode dar um new nessa classe, a não ser ela mesma.”
+
+Método estático getInstance() → retorna a única instância.
+
+Variável instance estática → única na memória.
+
+“Ela é como se fosse um jeito simples de explicar uma variável global. Ela é única, não importa a instância do objeto que a gente criar.”
+
+Uso comum: armazenar informações importantes ou sensíveis.
+
+“O objetivo do Singleton é justamente você criar um objeto único aonde você pode colocar informação lá dentro dele e em qualquer ponto do sistema, você consegue recuperar.”
+
+3. Demonstração prática
+
+Mensagens de log para entender o fluxo:
+
+“Coloca esse System.out.println no construtor e no getInstance() pra gente ver o que tá acontecendo.”
+
+Explicação de referência de objetos em Java:
+
+“O que esse igual tá fazendo é atribuindo a minha variável singleton a uma referência… a referência é como um super ponteiro.”
+
+Debug passo a passo no VS Code:
+
+Colocar breakpoint
+
+Usar Step Over para ver o Singleton sendo criado e o segredo armazenado
+
+Observar a memória e o conteúdo da variável
+
+4. Próximo desafio – Observer
+
+Criar um novo pacote chamado Observer:
+
+“Vocês vão tentar implementar o diagrama de classe do Observer sozinho. Não vou mentir, se você pedir para o copilot fazer, ele vai fazer em 3 segundos, mas você não vai aprender.”
+
+Objetivo: aprender a ler um diagrama de classes e implementar manualmente
+
+5. Dicas finais
+
+Singleton é usado em sistemas reais:
+
+“Fica, putz, isso aqui é um Singleton. Eu já sei como esse cara se comporta, essa é a ideia.”
+
+Aprender a debugar é essencial:
+
+“Qualquer editor de texto que você prefira, você tem que aprender a debugar código. Isso é uma habilidade.”
