@@ -1,0 +1,45 @@
+2. Configuração do Ambiente – Codespaces
+
+Foi configurado um Codespace, que é um ambiente de desenvolvimento baseado na nuvem oferecido pelo GitHub.
+
+Etapas realizadas na configuração:
+
+Criação de uma pasta de projeto.
+
+Adição de um arquivo de configuração para o Codespace.
+
+Criação de um arquivo .gitignore.
+
+Utilização do botão verde "Code" → "Open with Codespaces" no GitHub para iniciar o ambiente.
+
+3. Como se Conectar ao Ambiente
+
+O professor explicou que não é obrigatório, mas ajuda bastante:
+
+Fazer login no GitHub diretamente pelo computador da Univille.
+
+Utilizar o Visual Studio Code (VS Code) instalado localmente para facilitar a conexão ao Codespace.
+
+4. Uso do Visual Studio Code com Codespaces
+
+Passo a passo no VS Code:
+
+Abrir o Visual Studio Code.
+
+Procurar pelo ícone do Dev Container (que indica a integração com containers e ambientes remotos).
+
+Caso o ícone não apareça:
+
+Acessar a aba de Extensões no VS Code.
+
+Procurar pela extensão Codespaces e instalar.
+
+🎯 Pontos-Chave da Aula
+
+Revisão da configuração do GitHub Codespaces.
+
+Integração entre GitHub e Visual Studio Code.
+
+Importância de instalar a extensão Codespaces no VS Code caso o ícone de Dev Container não apareça.
+
+Contexto: tudo isso serve como preparação para continuar os estudos sobre Design Patterns dentro de um ambiente já estruturado.
