@@ -1,0 +1,56 @@
+Exercício e Importância da Prática
+
+O professor reforçou que a ideia não era copiar código, mas tentar implementar sozinho para ganhar experiência.
+
+O objetivo era ler o texto e entender o contexto, conectando com o exemplo anterior no Swing (botão que dispara mensagem).
+
+2. Padrão Publisher/Subscriber
+
+Foi apresentado como exemplo inicial de Design Pattern.
+
+Funcionamento: um publicador emite mensagens e os assinantes recebem notificações.
+
+Exemplos práticos:
+
+Grupos do WhatsApp → um envia mensagem e todos recebem.
+
+Redes sociais em geral.
+
+Diferença: na aula, a implementação foi local, mas em sistemas reais é feita de forma distribuída.
+
+Conceitos de classes e interfaces foram retomados dentro do diagrama.
+
+3. Padrão Adapter (Exemplo com API Gateway)
+
+Explicação de como o Adapter funciona como um intermediário que recebe requisições, adapta e entrega para o back-end.
+
+Uso real em APIs:
+
+Autenticação
+
+Autorização
+
+Cache
+
+Transformação de chamadas
+
+Exemplo prático: Globo.com utiliza o Kong, um dos maiores API Gateways open source, rodando em grande escala.
+
+O Kong atua como adapter, centralizando chamadas às APIs e aplicando controles.
+
+4. Observações Finais
+
+Existem muitos Design Patterns, a ponto de existir disciplinas inteiras só sobre o tema.
+
+A turma seguirá vendo apenas os mais relevantes e dinâmicos.
+
+Orientações práticas finais:
+
+Salvar e commitar alterações no Git (git add ., git commit -m "mensagem", git push).
+
+Fechar o Codespace ao final.
+
+Aula encerrada com chamada e agradecimentos.
+
+✅ Essência da aula:
+O professor reforçou a importância de praticar código, introduziu os padrões Publisher/Subscriber e Adapter, mostrando aplicações reais em sistemas distribuídos e no uso de APIs, além de conectar teoria com prática via exemplos concretos como WhatsApp e Globo.com.
