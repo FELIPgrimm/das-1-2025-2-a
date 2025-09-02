@@ -1,1 +1,101 @@
 
+. A complexidade atual do desenvolvimento de software
+
+destacou que antigamente, quem sabia uma linguagem e SQL já era considerado sênior.
+
+Hoje, isso é apenas o básico. O mercado exige muito mais.
+
+“Quando eu comecei, se o cara soubesse programar e fazer um inner join, ele já virava sênior. Hoje, isso é só o começo da carreira.”
+
+O professor reforçou que o desenvolvimento de software só vai ficar mais complexo com novas tecnologias (frameworks, IA, cloud).
+
+3. Analogia com construção civil
+
+Comparou a arquitetura de software com a arquitetura de um prédio:
+
+No prédio: concreto, areia, tijolos.
+
+No software: linhas de código.
+
+Assim, a estrutura é definida pelas decisões arquiteturais.
+
+“Se no prédio usamos tijolo e cimento, no software usamos linhas de código.”
+
+4. Três grandes pontos da aula
+
+O professor pediu que os alunos anotassem no GitHub três tópicos principais:
+
+Características de Arquitetura
+
+Decisões Arquiteturais
+
+Princípios de Design
+
+5. Características de Arquitetura
+
+São qualidades esperadas de um sistema (ex.: disponibilidade, segurança, confiabilidade).
+
+Exemplo de disponibilidade: bancos precisam estar sempre online.
+
+Walter contou casos de fintechs que caíram, enquanto bancos tradicionais ainda rodam em mainframes da IBM desde os anos 60 com Cobol e Fortran.
+
+“Boa parte do sistema bancário roda em mainframe da IBM, tecnologia dos anos 60, e funciona feito um cavalo. É tão confiável que não tiram de lá.”
+
+Alertou que profissionais de mainframe ou SAP são raríssimos e muito bem pagos.
+
+Outra característica central: segurança.
+
+Exemplificou com o problema do Supply Chain Attack, quando bibliotecas de terceiros podem ser comprometidas.
+
+“Esse é o maior medo hoje: usamos bibliotecas gratuitas sem saber se são seguras. Às vezes o autor abandona, alguém invade e publica uma versão com backdoor. Aí tua empresa baixa e pronto, foi atacada.”
+
+6. Decisões Arquiteturais
+
+São regras de organização do sistema, como a arquitetura em camadas.
+
+Definem como camadas se comunicam e quando é permitido ou não pular uma camada.
+
+“No desespero, muita empresa fura camada pra entregar no prazo. Isso cria problemas sérios na arquitetura.”
+
+Destacou que misturar estilos arquiteturais é possível, desde que exista justificativa técnica.
+
+7. Princípios de Design
+
+São boas práticas que devem ser seguidas sempre que possível.
+
+Exemplo: uso de mensageria assíncrona para melhorar desempenho.
+
+O professor explicou conceitos de programação assíncrona, usando exemplos:
+
+Android/iOS (obriga programação assíncrona).
+
+Instagram (publicar um Reels dispara uma cadeia de eventos processados em paralelo).
+
+Alexa e AWS Lambda (cada comando dispara uma função em nuvem que roda por milissegundos e morre).
+
+“Quando você pede para Alexa soltar um pum, a AWS sobe uma VM só pra isso. Processa e depois destrói. Esse é o event-driven architecture.”
+
+8. O papel do arquiteto de software
+
+Responsabilidades:
+
+Definir características, decisões e princípios.
+
+Manter a arquitetura atualizada.
+
+Garantir conformidade.
+
+Considerar aspectos técnicos, humanos e políticos.
+
+“Definir arquitetura não é simples. Todo sistema tem fim de vida. Tirando a IBM, todo sistema chega um momento em que não dá mais pra evoluir.”
+
+9. Encerramento
+
+Walter reforçou a importância de resumir e registrar os tópicos no GitHub.
+
+Relembrou que haverá tanto partes teóricas (como esta aula) quanto práticas com código.
+
+“Tenta fazer o resumo no Git e dar o commit, por favor. Eu prometo que vai ter código, não vai ser só blá blá blá.”
+
+✅ Resumo Final:
+A aula apresentou uma visão moderna de arquitetura de software, baseada em características, decisões e princípios, indo além da simples organização de código. O professor usou exemplos práticos, analogias e histórias reais (bancos, mainframe, ataques de segurança, Instagram, Alexa) para mostrar a importância dessas escolhas no mundo real.
