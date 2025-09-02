@@ -1,0 +1,17 @@
+Pensar como arquiteto é bem diferente de pensar como desenvolvedor. É como olhar as nuvens: um meteorologista vê uma coisa, um artista vê outra. O pensamento arquitetônico não é só “pensar na arquitetura”, mas enxergar o sistema de forma ampla e estratégica.
+
+Para isso, precisa de quatro coisas principais:
+
+Entender a diferença entre arquitetura e design e colaborar com os desenvolvedores.
+
+Ter bastante conhecimento técnico variado, sem deixar de ter profundidade em alguns pontos.
+
+Saber analisar os trade-offs entre diferentes soluções e tecnologias.
+
+Compreender os objetivos de negócio e como eles afetam a arquitetura.
+
+A separação tradicional entre arquiteto e desenvolvedor não funciona bem, porque cria barreiras. Para dar certo, arquiteto e equipe precisam trabalhar juntos, em comunicação constante, quase como se fossem uma só equipe.
+
+Outra coisa importante é que, enquanto o desenvolvedor foca em profundidade (se especializar em certas tecnologias), o arquiteto precisa ter amplitude de conhecimento. Ou seja, não basta dominar uma única ferramenta: é melhor conhecer várias opções para saber qual se encaixa melhor em cada problema.
+
+Existe o risco do “Homem das Cavernas Congelado”, quando o arquiteto fica preso a um trauma ou erro do passado e passa a tomar decisões baseadas em medos exagerados. O verdadeiro pensamento arquitetônico exige superar isso e focar em riscos reais, sempre aberto a novas soluções.
