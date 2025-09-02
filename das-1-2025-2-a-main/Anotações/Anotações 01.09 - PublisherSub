@@ -1,0 +1,118 @@
+
+
+Ele destacou que a visão antiga de arquitetura – como simples organização de código e uso de padrões de projeto – não está errada, mas hoje é insuficiente diante da complexidade do desenvolvimento moderno.
+
+“Quando eu comecei, se o cara soubesse programar em uma linguagem e fazer um inner join no banco, já virava sênior. Hoje, isso é só o começo da carreira.”
+
+Características, Decisões e Princípios
+
+Anotei três pilares centrais da disciplina:
+
+Características de Arquitetura (requisitos não funcionais, como segurança, desempenho, disponibilidade).
+
+Decisões Arquiteturais (escolha do estilo arquitetural, como monolito, camadas ou microsserviços).
+
+Princípios de Design (boas práticas e regras que sustentam a arquitetura escolhida).
+
+O professor usou a analogia com a construção civil:
+
+No prédio temos cimento, areia e tijolos.
+
+No software temos linhas de código.
+Definir características, decisões e princípios é como projetar a estrutura de um prédio.
+
+Características de Arquitetura
+
+As características são os requisitos não funcionais.
+Exemplo:
+
+Disponibilidade: bancos precisam estar sempre no ar. Por isso, muitos ainda rodam em mainframes da IBM desde os anos 60, com COBOL e Fortran. Apesar de antigo, é extremamente confiável.
+
+“O sistema bancário roda em mainframe da IBM. É tão confiável que eles não têm coragem de tirar de lá.”
+
+Segurança: hoje é um dos pontos mais críticos. Ele falou sobre ataques na cadeia de suprimentos de software (Supply Chain Attack), quando um invasor altera bibliotecas gratuitas que usamos sem avaliar a segurança.
+
+Aprendi também que nenhum sistema consegue ter todas as características no máximo. Sempre é preciso abrir mão de algumas para priorizar outras.
+
+Decisões Arquiteturais
+
+Decidir pela arquitetura é escolher o futuro do sistema.
+Exemplos:
+
+Arquitetura em camadas (clássica, usada em muitos projetos).
+
+Arquitetura monolítica (a Conta Azul foi vendida por bilhões mesmo sendo um monolito).
+
+Arquitetura de microsserviços (cada serviço com seu banco e responsabilidades claras).
+
+O professor explicou que misturar estilos arquiteturais é possível, mas precisa ter justificativa técnica.
+
+Princípios de Design
+
+São as regras e boas práticas que mantêm a arquitetura de pé.
+
+Exemplo: uso de mensageria assíncrona (RabbitMQ, Kafka, AWS SQS).
+
+Ele mostrou como sistemas assíncronos funcionam:
+
+No Android, é obrigatório programar de forma assíncrona.
+
+O Instagram, ao publicar um Reels, dispara vários eventos de processamento em paralelo.
+
+A Alexa usa AWS Lambda: cada comando sobe uma micro VM que roda por milissegundos e morre.
+
+“Quando você pede para a Alexa soltar um pum, a AWS sobe uma VM só para isso. Processa e depois destrói. Esse é o event-driven architecture.”
+
+Papel do Arquiteto de Software
+
+O arquiteto é quem:
+
+Toma decisões difíceis.
+
+Analisa continuamente a arquitetura.
+
+Mantém padrões de código.
+
+Considera aspectos técnicos, humanos e políticos.
+
+O professor ressaltou que arquitetura não é estática: sistemas degradam com o tempo e pode chegar a hora de reescrever partes inteiras.
+
+“Tirando a IBM, todo sistema chega a um momento em que não dá mais pra evoluir.”
+
+Ele contou também a importância de ferramentas como análise estática de código (linters) para garantir padrões e evitar que cada programador quebre as camadas.
+
+Atualização Constante
+
+O arquiteto precisa estar sempre atualizado. Ele contou sobre a Netflix, que ainda roda grande parte dos microsserviços em Java 8, porque atualizar todos é complexo demais. Ao tentar migrar para Virtual Threads, encontraram deadlocks e tiveram que voltar atrás.
+
+DevOps
+
+Na segunda aula, o professor aprofundou no tema DevOps.
+
+Explicou que DevOps nasceu para aproximar desenvolvimento e operação, que antes viviam em conflito.
+
+Como cultura, todos são responsáveis pelo sistema.
+
+Como prática, envolve todo o ciclo:
+
+Planejamento (Scrum, Kanban).
+
+Continuous Integration (repositório central, testes, análise estática).
+
+Continuous Deployment/Delivery (liberação rápida, como na Conta Azul).
+
+Monitoramento e Feedback (observabilidade, rollback quando necessário).
+
+“DevOps é uma forma de entregar valor mais rápido para o cliente.”
+
+Prova e GitHub
+
+Prova: dia 22/09, sem consulta, 50% da nota.
+
+GitHub: entrega até 29/09, valendo os outros 50%.
+
+O professor reforçou: se eu fizer minhas anotações e commits no GitHub, já estarei preparado.
+
+✅ Resumo Final (em primeira pessoa)
+
+Nessas duas aulas aprendi que arquitetura de software vai muito além de padrões de código. Preciso entender características, decisões e princípios, que moldam o sistema como a estrutura de um prédio. Vi exemplos práticos sobre disponibilidade, segurança, monolito, microsserviços, programação assíncrona e DevOps. Também ficou claro que o arquiteto é um profissional experiente, que toma decisões críticas, mantém padrões, precisa lidar com pessoas e se manter atualizado. Para a disciplina, minha meta é registrar tudo no GitHub e me preparar para a prova no dia 22/09.
